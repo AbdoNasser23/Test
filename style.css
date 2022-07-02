@@ -71,10 +71,11 @@ body {
 @media screen and (max-width: 650px) {
     .container {
         grid-template-columns: 1fr;
+        margin-top: 50px;
         gap: 50px;
     }
     .img img , canvas {
-        max-width: 80vw;
+        max-width: 250px;
     }
 }
 
